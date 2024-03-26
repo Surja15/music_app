@@ -9,21 +9,21 @@ class PlaylistProvider extends ChangeNotifier{
     Song(songName: "Straight Outta Compton",
      artistName: "NWA", 
      albumArtImagePath: "lib/assets/images/NWA.png", 
-     audioPath: "lib/assets/audio/nwa.mp3"
+     audioPath: "https://ia801602.us.archive.org/25/items/n.w.a.-straight-outta-compton/Straight%20Outta%20Compton/01-Straight%20Outta%20Compton.mp3"
      ),
 
     //song 2 
     Song(songName: "The Rebel Path - Cello",
      artistName: "Cyberpunk", 
      albumArtImagePath: "lib/assets/images/cello.png", 
-     audioPath: "lib/assets/audio/cello.mp3"
+     audioPath: "https://ia803403.us.archive.org/25/items/cyberpunk-albums/Cyberpunk_2077%5BM%5D/Cyberpunk%202077%20Original%20Soundtrack%20%5BMP3%5D/Disc%201/1.03%20The%20Rebel%20Path.mp3"
      ),
 
     //song 3
     Song(songName: "Thunderstruck",
      artistName: "AC/DC", 
      albumArtImagePath: "lib/assets/images/acdc.png", 
-     audioPath: "lib/assets/audio/Thunderstruck.mp3"
+     audioPath: "https://ia803206.us.archive.org/23/items/Acdc-Thunderstruck/A1-Thunderstruck_01.mp3"
      ),
 
   ];
@@ -56,7 +56,7 @@ class PlaylistProvider extends ChangeNotifier{
     final String path = _playlist[_currentSongIndex!].audioPath;
     
       await _audioPlayer.stop();
-      await _audioPlayer.play(AssetSource(path));
+      await _audioPlayer.play(UrlSource(path));
       _isPlaying = true;
     
   notifyListeners();
