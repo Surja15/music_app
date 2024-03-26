@@ -26,6 +26,13 @@ class PlaylistProvider extends ChangeNotifier{
      audioPath: "https://ia803206.us.archive.org/23/items/Acdc-Thunderstruck/A1-Thunderstruck_01.mp3"
      ),
 
+     //song 4
+     Song(songName: "Feel Invincible",
+     artistName: "Skillet", 
+     albumArtImagePath: "lib/assets/images/skillet.png", 
+     audioPath: "https://ia801407.us.archive.org/33/items/SkilletTheResistance2017CinematicMV/Skillet%20-%20Feel%20Invincible%20-%20%282017%29%20%5BCinematic%20MV%5D.mp3"
+     ),
+
   ];
 
   //currently playing
