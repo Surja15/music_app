@@ -6,6 +6,7 @@ Music App built on Flutter, following neumorphism and neon inspired design.
 - Light and Dark Mode
 - Aesthetic UI
 - Custom Drawer
+- Plays Music using audioplayers
 
 
 https://github.com/Surja15/music_app/assets/146713425/f98f425f-427f-4130-a872-8698ec573241
