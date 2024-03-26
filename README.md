@@ -1,16 +1,14 @@
 # music_by_surja
 
-A new Flutter project.
+Music App built on Flutter, following neumorphism and neon inspired design.
 
-## Getting Started
+## Features
+- Light and Dark Mode
+- Aesthetic UI
+- Custom Drawer
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/Surja15/music_app/assets/146713425/f98f425f-427f-4130-a872-8698ec573241
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Music App 1](https://github.com/Surja15/music_app/assets/146713425/d6fd6f25-980a-4799-a73d-5104dfa0d28e)
+![Music App 2](https://github.com/Surja15/music_app/assets/146713425/32e6c239-4f5b-4d2f-9bd2-88a7cf9c2858)
