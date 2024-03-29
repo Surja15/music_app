@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.music_by_surja"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:2:1-62
+11-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:2:18-60
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-80
+12-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-77
+13
+14    <queries>
+14-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-17:15
+15        <intent>
+15-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:18
+16            <action android:name="android.intent.action.GET_CONTENT" />
+16-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-72
+16-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:21-69
+17
+18            <data android:mimeType="*/*" />
+18-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-44
+18-->[:file_picker] D:\APP\Fluttertest\music_by_surja\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:19-41
+19        </intent>
+20    </queries>
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\cded83b008f9d29e1959bb7a5bc237d1\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.music_by_surja.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\cded83b008f9d29e1959bb7a5bc237d1\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\cded83b008f9d29e1959bb7a5bc237d1\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.music_by_surja.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\cded83b008f9d29e1959bb7a5bc237d1\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\cded83b008f9d29e1959bb7a5bc237d1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+29        android:name="android.app.Application"
+29-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:6:9-42
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\cded83b008f9d29e1959bb7a5bc237d1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:7:9-43
+32        android:label="No Frills Music" >
+32-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:5:9-40
+33        <activity
+33-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:8:9-28:20
+34            android:name="com.example.music_by_surja.MainActivity"
+34-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:9:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:13:13-163
+36            android:exported="true"
+36-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:10:13-36
+37            android:hardwareAccelerated="true"
+37-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:14:13-47
+38            android:launchMode="singleTop"
+38-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:11:13-43
+39            android:theme="@style/LaunchTheme"
+39-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:12:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:15:13-55
+41
+42            <!--
+43                 Specifies an Android theme to apply to this Activity as soon as
+44                 the Android process has started. This theme is visible to the user
+45                 while the Flutter UI initializes. After that, this theme continues
+46                 to determine the Window background behind the Flutter UI.
+47            -->
+48            <meta-data
+48-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:20:13-23:17
+49                android:name="io.flutter.embedding.android.NormalTheme"
+49-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:21:15-70
+50                android:resource="@style/NormalTheme" />
+50-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:22:15-52
+51
+52            <intent-filter>
+52-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:24:13-27:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:25:17-68
+53-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:25:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:26:17-76
+55-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:26:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:31:9-33:33
+63            android:name="flutterEmbedding"
+63-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:32:13-44
+64            android:value="2" />
+64-->D:\APP\Fluttertest\music_by_surja\android\app\src\main\AndroidManifest.xml:33:13-30
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+72    </application>
+73
+74</manifest>
